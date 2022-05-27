@@ -17,12 +17,6 @@ void main() {
         print("entered number is not a prime number");
         print("Remainder:$remainder\nQuotient:$quotient");
         return;
-      } else {
-        print('entered number is a prime number');
-        remainder = input % loop;
-        quotient = input ~/ 2;
-        print("Remainder:$remainder\nQuotient:$quotient");
-        return;
       }
     }
     print("$input is prime number");
